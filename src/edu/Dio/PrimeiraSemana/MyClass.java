@@ -15,6 +15,6 @@ public class MyClass {
         scanner.close();
     }
     public static String completeName(String firstName, String secondName){
-        return "Hello "+firstName.concat(" ").concat(secondName);
+        return "Hello "+firstName.concat(" ").concat(secondName)+"!";
     }
 }
